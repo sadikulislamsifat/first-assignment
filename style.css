@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+
+   
+}
+
+.header-content h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+.header-content p{
+    color: white;
+    margin-bottom: 40px;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange , tomato , lightcoral);
+    padding: 13px 40px;
+    border-radius: 5px;
+
+}
+
+
+
+/* header ends here  */
+
+.donate{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center; 
+    text-align: center;
+}
+.donate-container{
+    width: 54%;
+}
+.top{
+    margin-top: 60px;
+}
+.top h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.top p{
+    margin-bottom: 40px;
+}
+
+.middle ul li{
+    list-style: none;
+    display: inline-block;
+    
+    padding: 45px 30px;
+    background-color: #EEEEEE;
+    margin: 0 25px;
+    font-size: 30px;
+    border-radius: 5px;
+
+}
+#text{
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    margin-top: 40px;
+    border: none;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    outline: none;
+
+
+}
+#tk200{
+    border: 2px solid red;
+    background-color: rgba(243, 16, 16,0.2);
+
+}
+
+.bottom a{
+    display: block;
+    width: 100px;
+    margin: 25px auto;
+}
+
+
+
+
+/* donate section end here */
+
+/* donate plan start from here */
+
+.donate-title{
+    width: 43%;
+    text-align: center;
+    margin: 70px auto;
+}
+.donate-title h1{
+    margin: 20px;
+}
+
+.donate-content{
+    width: 60%;
+    display: flex;
+
+    
+    margin: 0 auto;
+}
+.donate-item{
+    width: 30%;
+    border-radius: 5px;
+    text-align: left;
+    padding:20px 10px;
+    margin: 10px;
+}
+.family-food h1{
+    margin: 20px 0;
+}
+.family-sheilter h1{
+    margin: 20px 0;
+}  
+.chil-education h1{
+    margin: 20px 0;
+}  
+.family-food{
+    background-color: #EAF7F9;
+}
+.family-sheilter{
+    background-color: #EAF0F9;
+}  
+.chil-education{
+    background-color: #EAF9EC;
+}  
