@@ -61,7 +61,7 @@ h2{
     text-align: center;
 }
 .donate-container{
-    width: 54%;
+    width: 80%;
     
 }
 .top{
@@ -74,11 +74,14 @@ h2{
 .top p{
     margin-bottom: 40px;
 }
+.middle{
+    width: 100%;
+}
 
 .middle ul li{
     list-style: none;
     display: inline-block;
-    
+
     padding: 45px 30px;
     background-color: #EEEEEE;
     margin: 20px 25px;
@@ -87,12 +90,13 @@ h2{
 
 }
 #text{
-    width: 90%;
+    width: 50%;
     height: 30px;
     text-align: center;
     margin-top: 60px;
     border: none;
     font-size: 25px;
+    padding: 10px;
     border-bottom: 1px solid gray;
     outline: none;
 
@@ -134,18 +138,21 @@ h2{
 }
 
 .donate-content{
-    width: 60%;
+    width: 70%;
+    
     display: flex;
 
     
     margin: 0 auto;
+    
 }
 .donate-item{
     width: 30%;
     border-radius: 5px;
     text-align: left;
-    padding:20px 10px;
+    padding: 30px;
     margin: 10px;
+    
     
 }
 .family-food h2{
@@ -171,6 +178,51 @@ h2{
 /* donate plan end here */
 
 
+.help-container{
+    width: 70%;
+    
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.list-human p , .list-animal p{
+    margin: 10px 0;
+}
+
+.tran-pic{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    width: 120px;
+    border: 1px solid rgb(240, 220, 220);
+    border-bottom: none;
+}
+.list-human{
+    width: 30%;
+    padding: 3%;
+    border-left: 2px solid blue;
+    box-shadow: 2px 2px 30px -10px;
+    padding-left: 20px;
+    padding-top: 25px;
+
+}
+
+
+.list-man{
+    width: 30%;
+    margin: 0 20px;
+    box-shadow: 10px 15px 20px -20px;
+    
+}
+.list-animal{
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 25px;
+    border-left: 2px solid red;
+    box-shadow: 2px 2px 30px -10px;
+}
+
+
 .disply-flex{
     display: flex;
     
@@ -180,7 +232,7 @@ h2{
     height: 40vh;
 }
 .help-container1{
-    width: 60%;
+    width: 70%;
     margin: 5vh auto;
 }
 .image{
@@ -210,7 +262,7 @@ h2{
     margin: 30px 0;
 }
 .form{
-    width: 40%;
+    width: 60%;
     height: 120px;
     background-color:  rgba(234, 223, 125,0.3);
     margin: 0 auto;
@@ -224,7 +276,7 @@ h2{
     border: none;
     background-color: rgb(227, 217, 217);
     color: white;
-    width: 220px;
+    width: 30%;
     height: 20px;
     font-size: 19px;
     padding: 10px;
@@ -233,8 +285,9 @@ h2{
     outline: none;
 }
 #btn{
-    background-image: linear-gradient(red  ,lightcoral);
+    background-image: linear-gradient(rgb(245, 55, 55), rgb(251, 57, 57), rgb(239, 38, 38)  ,rgb(232, 36, 36));
     padding: 12px 30px;
+    color: white;
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
