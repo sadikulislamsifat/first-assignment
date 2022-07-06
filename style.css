@@ -41,9 +41,10 @@ h2{
 }
 .btn{
     text-decoration: none;
-    background-image: linear-gradient( orange , orangered ,lightcoral );
+    background-color: rgb(242, 84, 26);
     padding: 13px 40px;
     border-radius: 5px;
+    font-weight: 550;
     color: #fff;
 
 }
@@ -56,7 +57,7 @@ h2{
     width: 100%;
     height: 80vh;
     display: flex;
-    /* align-items: center;  */
+
     justify-content: center; 
     text-align: center;
 }
@@ -118,8 +119,11 @@ h2{
 
 
 
-
 /* donate section end here */
+
+
+
+
 
 /* donate plan start from here */
 
@@ -176,6 +180,13 @@ h2{
 
 
 /* donate plan end here */
+
+
+
+
+
+
+
 
 
 .help-container{
@@ -298,6 +309,12 @@ hr{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+
+/* footer start from here */
+
+
+
 
 footer{
     width: 100%;
